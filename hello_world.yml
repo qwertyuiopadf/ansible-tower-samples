@@ -1,7 +1,6 @@
-- name: Hello World Sample
-  hosts: all
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+---
+- hosts: all
+  remote_user: root
+  - name: add
+    command: ls
 
